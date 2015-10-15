@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+#Ignore annoying RubyMine bullshit changes
+.idea/
