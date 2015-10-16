@@ -1,0 +1,21 @@
+@import "shared/variables";
+
+.header {
+  background-color: $darkBlue;
+  height: 60px;
+  padding: 0 0 15px 0;
+
+  .logo {
+    width: 76px;
+    float: left;
+  }
+
+  .top-nav {
+    float: right;
+  }
+
+  .nav-link {
+    color: $white;
+    display: table-cell;
+  }
+}
