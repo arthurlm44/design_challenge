@@ -18,3 +18,4 @@
 
 #Ignore annoying RubyMine bullshit changes
 .idea/
+.idea
