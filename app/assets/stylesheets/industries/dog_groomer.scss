@@ -1,5 +1,40 @@
 @import "shared/variables";
 
-h1 {
-  color: $darkBlue;
+.dog-container {
 }
+
+.dog-groomer-hero {
+
+  .hero-image {
+    z-index: 1;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .overlayed-text {
+    position: absolute;
+    z-index: 2;
+    top: 125px;
+    left: 100px;
+  }
+}
+
+.feature-screenshot-right {
+
+  .fees-copy {
+    float: left;
+    width: 30%;
+  }
+
+  .fees-screenshot {
+    width: 70%;
+
+    img {
+      height: 300px;
+    }
+  }
+}
+
