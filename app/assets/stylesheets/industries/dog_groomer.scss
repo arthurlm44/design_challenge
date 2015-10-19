@@ -23,14 +23,15 @@
 }
 
 .feature-screenshot-right {
+  width: 100%;
+  background-color: $warmGrey1;
 
   .fees-copy {
-    float: left;
-    width: 30%;
+    width: 50px;
   }
 
   .fees-screenshot {
-    width: 70%;
+    float: right;
 
     img {
       height: 300px;
