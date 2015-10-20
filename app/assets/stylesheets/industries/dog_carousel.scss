@@ -1,0 +1,34 @@
+.carousel-header-copy {
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+.dog-carousel {
+  width: 350px;
+  overflow: hidden;
+  height: 300px;
+  margin: 0 auto;
+
+  img {
+  }
+
+  .carousel-inner {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .carousel-image {
+    width: 350px;
+    text-align: center;
+    height: 280px;
+    list-style: none;
+    position: relative;
+  }
+
+  .carousel-item {
+    width: 350px;
+    height: 328px;
+  }
+}
