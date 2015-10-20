@@ -9,29 +9,18 @@
     </div>
   </div>
   <div class="feature-screenshot-right">
-    <div class="fees-copy">
-      <h2 class="sub-head">Fees</h2>
-      <p>Mavenlink’s advanced project management software empowers you to plan your poodle-primping and track your terrier-trimming -- all in one place. Our canine project management software provides unparalleled insight into the status of your grooming projects.</p>
+
+    <div class="fees fees-copy">
+      <h2 class="title-header">Fees</h2>
+      <p class="standard-copy">Mavenlink’s advanced project management software empowers you to plan your poodle-primping and track your terrier-trimming -- all in one place. Our canine project management software provides unparalleled insight into the status of your grooming projects.</p>
+      <p class="standard-copy">Learn more about <%= link_to 'Mavenlink Insights', 'https://www.mavenlink.com/tour/real-time-project-analytics' %></p>
     </div>
-    <div class="fees-screenshot">
+    <div class="fees fees-screenshot">
       <%= image_tag 'industries/fees.png' %>
     </div>
     <div class="clearfix"></div>
   </div>
-  <div class="dog-grooming-benefits">
-    <ul>
-      <li>Some cool stuff</li>
-      <li>Some cool stuff</li>
-      <li>Some cool stuff</li>
-      <li>Some cool stuff</li>
-    </ul>
-    <div class="product-screenshot">
-      <%= image_tag '#' %>
-    </div>
-  </div>
-  <h1 class="main-title">Make mad money with dogs</h1>
-  <div class="carousel-of-happy-dogs">
-    <%= image_tag 'industries/business-dog.jpg' %>
-  </div>
+  <%= render partial: 'industries/dog_carousel' %>
+
   <%= render partial: 'layouts/cta_bottom' %>
 </div>

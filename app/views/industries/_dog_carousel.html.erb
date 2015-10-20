@@ -1,0 +1,22 @@
+<div class="carousel-of-happy-dogs">
+  <h2 class="title-header centered">Happy 4 legged Mavenlink Customers</h2>
+  <p class="standard-copy carousel-header-copy centered">Join the thousands of Mavenlink users who are making puppies happier by managing their people, projects, profits & 4 legged customers! Mavenlink is a powerful business management tool.</p>
+  <div class="dog-carousel">
+    <ul class="carousel-inner">
+      <li class="carousel-image"><%= image_tag 'industries/grooming1.jpg', class: 'carousel-item' %></li>
+      <li class="carousel"><%= image_tag 'industries/grooming2.jpg', class: 'carousel-item' %></li>
+      <li class="carousel"><%= image_tag 'industries/grooming3.jpg', class: 'carousel-item' %></li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    var t = setInterval(function(){
+      $(".carousel-inner").animate({marginLeft: -350}, 1000, function() {
+        $(this).find("li:last").after($(this).find("li:first"));
+        $(this).css({marginLeft:0});
+      })
+    }, 5000);
+  });
+</script>

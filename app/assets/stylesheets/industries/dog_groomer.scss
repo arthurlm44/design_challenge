@@ -23,17 +23,26 @@
 }
 
 .feature-screenshot-right {
+  background-color: $warmGrey1;
+  padding: 40px 0;
+
+  .fees {
+    padding: 40px;
+  }
 
   .fees-copy {
-    float: left;
     width: 30%;
+    float: left;
+    padding-left: 100px;
   }
 
   .fees-screenshot {
-    width: 70%;
+    float: left;
+    width: 40%;
+    padding-left: 100px;
 
     img {
-      height: 300px;
+      height: 425px;
     }
   }
 }
