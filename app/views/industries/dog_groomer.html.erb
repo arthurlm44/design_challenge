@@ -8,19 +8,33 @@
       <%= image_tag 'industries/dog-groomer-hero.jpg' %>
     </div>
   </div>
-  <div class="feature-screenshot-right">
-
+  <div class="feature-screenshot-right grey-background">
     <div class="fees fees-copy">
-      <h2 class="title-header">Fees</h2>
-      <p class="standard-copy">Mavenlink’s advanced project management software empowers you to plan your poodle-primping and track your terrier-trimming -- all in one place. Our canine project management software provides unparalleled insight into the status of your grooming projects.</p>
-      <p class="standard-copy">Learn more about <%= link_to 'Mavenlink Insights', 'https://www.mavenlink.com/tour/real-time-project-analytics' %></p>
+      <h2 class="title-header">Fees Tracking Features</h2>
+      <ul class="list-of-features standard-copy">
+        <li>Fee Management</li>
+        <li>Task Tracking</li>
+        <li>Invoicing</li>
+        <li>Manage Budgets</li>
+      </ul>
+      <p class="standard-copy">Your business can be managed very effectively by using Mavenlink. By using Mavenlink, you can really maximize your profits as well as your efficiency.</p> 
     </div>
     <div class="fees fees-screenshot">
       <%= image_tag 'industries/fees.png' %>
     </div>
     <div class="clearfix"></div>
   </div>
+
   <%= render partial: 'industries/dog_carousel' %>
+
+  <div class="benefits grey-background">
+    <div class="benefits-copy">
+      <p class="standard-copy centered">Mavenlink’s advanced project management software empowers you to plan your poodle-primping and track your terrier-trimming -- all in one place. Our canine project management software provides unparalleled insight into the status of your grooming projects. Learn more about <%= link_to 'Mavenlink Insights', 'https://www.mavenlink.com/tour/real-time-project-analytics' %></p>
+    </div>
+    <div class="benefits-image">
+      <%= image_tag 'industries/large-screenshot.png' %>
+    </div>
+  </div>
 
   <%= render partial: 'layouts/cta_bottom' %>
 </div>
