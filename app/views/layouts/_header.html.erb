@@ -2,8 +2,10 @@
   <div class="logo">
     <%= image_tag "logo/ml-logo.png" %>
   </div>
-  <nav class="top-nav">
-    <p class="nav-link">Link 1</p>
-    <p class="nav-link">Link 2</p>
-  </nav>
+    <ul class="top-nav">
+      <li><%= link_to 'Request Demo', '#', class: 'button blue-back-white-text nav-link' %></li>
+      <li><%= link_to 'Login', '#', class: 'button transparent-back-white-text nav-link' %></li>
+      <li><%= link_to 'Tour', '#', class: 'nav-link nav-text-link' %></li>
+      <li><%= link_to 'Pricing', '#', class: 'nav-link nav-text-link' %></li>
+    </ul>
 </div>
