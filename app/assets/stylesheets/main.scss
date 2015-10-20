@@ -1,4 +1,4 @@
-@import "industries/dog_groomer";
+@import "industries/industries";
 
 body {
   margin: 0;
@@ -10,10 +10,31 @@ body {
   color: $darkBlue;
 }
 
+.title-header {
+  color: $darkBlue;
+}
+
 .sub-head {
   color: $warmGrey8;
 }
 
+.centered {
+  text-align: center;
+}
+
 .clearfix {
   clear: both;
+}
+
+a {
+  color: $lightBlue;
+}
+
+a:hover {
+  color: $darkBlue;
+}
+
+.cta-bottom {
+  background-color: $warmGrey1;
+  padding: 50px;
 }
