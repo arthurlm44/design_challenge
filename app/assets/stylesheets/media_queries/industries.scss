@@ -1,0 +1,137 @@
+@import 'shared/variables';
+
+@media (max-width: 1050px) {
+  .benefits-image {
+    img {
+      width: 550px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .feature-screenshot-right {
+
+    padding: 0 50px;
+
+    .fees-screenshot {
+      float: none;
+      text-align: center;
+      width: 100%;
+      padding-left: 0px;
+      padding-bottom: 30px;
+
+    }
+
+    .fees-copy {
+      float: none;
+      text-align: center;
+      width: 100%;
+      padding-left: 0;
+    }
+  }
+}
+
+@media (max-width: 925px) {
+
+  .overlayed-subhead {
+
+    .desktop-hidden {
+      display: block;
+    }
+  }
+
+  .dog-groomer-hero {
+
+    .overlayed-text {
+      top: 125px;
+      left: 100px;
+      width: 550px;
+    }
+  }
+}
+
+@media (max-width: 670px) {
+
+  .benefits {
+    padding: 5px;
+  }
+
+.dog-container {
+
+  .benefits-copy {
+    padding: 15px 0;
+  }
+
+  .benefits-image {
+    padding: 15px 0;
+
+    img {
+      width: 360px;
+    }
+  }
+}
+
+  .overlayed-subhead {
+    display: none;
+  }
+
+  .dog-groomer-hero {
+
+    .overlayed-text {
+      top: 80px;
+      left: 60px;
+      font-size: 0.8rem;
+      width: 450px;
+    }
+
+    .overlayed-button {
+      top: 140px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .dog-groomer-hero {
+  .overlayed-text {
+    width: 400px;
+  }
+  }
+}
+
+@media (max-width: 500px) {
+
+  .dog-container {
+
+    .benefits-image {
+      img {
+        width: 300px;
+      }
+    }
+  }
+
+  .dog-groomer-hero {
+
+    .overlayed-text {
+      left: 20px;
+      font-size: 0.8rem;
+    }
+
+    .overlayed-button {
+      top: 100px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+
+  .dog-groomer-hero {
+
+    .overlayed-text {
+      top: 90px;
+      left: 5px;
+      font-size: 0.6rem;
+      width: 395px;
+    }
+  }
+}
