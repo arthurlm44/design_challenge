@@ -71,6 +71,7 @@ a:hover {
   &.blue-back-white-text:hover {
     background-color: $warmGrey1;
     color: $lightBlue;
+    border: 1px solid $lightBlue;
   }
 
   &.transparent-back-white-text {
