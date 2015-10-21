@@ -11,30 +11,15 @@
 }
 
 .dog-carousel {
+  text-align: center;
   width: 350px;
-  overflow: hidden;
   height: 328px;
-  margin: 75px auto 0 auto;
+  position: relative;
+  margin: 50px auto;
 
   img {
-  }
-
-  .carousel-inner {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .carousel-image {
-    width: 350px;
-    text-align: center;
-    height: 328px;
-    list-style: none;
-    position: relative;
-  }
-
-  .carousel-item {
-    width: 350px;
-    height: 328px;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
