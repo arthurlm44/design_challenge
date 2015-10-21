@@ -60,6 +60,7 @@ a:hover {
   vertical-align: middle;
   padding: 10px;
   font-family: "jaf-bernino-sans", sans-serif;
+  cursor: pointer;
 
   &.blue-back-white-text {
     background-color: $lightBlue;
@@ -67,9 +68,19 @@ a:hover {
     border: none;
   }
 
+  &.blue-back-white-text:hover {
+    background-color: $warmGrey1;
+    color: $lightBlue;
+  }
+
   &.transparent-back-white-text {
     color: $white;
     border: 1px solid $lightBlue;
+  }
+
+  &.transparent-back-white-text:hover {
+    color: $lightBlue;
+    background-color: $warmGrey1;
   }
 
   &.red-back-white-text {
@@ -78,6 +89,11 @@ a:hover {
     background-color: $vBrightRed;
     border: none;
     font-size: 18px;
+  }
+
+  &.red-back-white-text:hover {
+    background-color: $vRed;
+    color: $warmGrey7;
   }
 }
 
