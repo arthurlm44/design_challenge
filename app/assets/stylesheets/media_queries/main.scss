@@ -1,7 +1,17 @@
 @import 'shared/variables';
 
-@media (max-width: 1200px) {
-
+@media (max-width: 800px) {
+  .cta-bottom {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .bottom-cta-button {
+    float: none;
+    margin-top: 10px;
+  }
+  .cta-text {
+    display: none;
+  }
 }
 
 @media (max-width: 670px) {
@@ -9,4 +19,5 @@
   .tablet-show {
     display: block;
   }
+
 }
