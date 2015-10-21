@@ -1,23 +1,26 @@
 <div class="dog-container">
   <div class="dog-groomer-hero">
     <div class="overlayed-text">
-      <h1 class="main-title">Advanced Project Management for<br> Professional Dog Groomers</h1>
+      <h1 class="main-title">Advanced Project Management for Professional Dog Groomers</h1>
       <h2 class="sub-head">You’ve managed their fleas. Now invoice your fees!</h2>
+      <%= link_to 'Learn more', '#', class: 'button red-back-white-text overlayed-button' %>
     </div>
     <div class="hero-image">
       <%= image_tag 'industries/dog-groomer-hero.jpg' %>
     </div>
   </div>
-  <div class="feature-screenshot-right grey-background">
+  <div class="feature-screenshot-right">
     <div class="fees fees-copy">
       <h2 class="title-header">Fees Tracking Features</h2>
-      <ul class="list-of-features standard-copy">
-        <li>Fee Management</li>
-        <li>Task Tracking</li>
-        <li>Invoicing</li>
-        <li>Manage Budgets</li>
-      </ul>
-      <p class="standard-copy">Your business can be managed very effectively by using Mavenlink. By using Mavenlink, you can really maximize your profits as well as your efficiency.</p> 
+      <div class="indented-content">
+        <ul class="standard-copy">
+         <li>Fee Management</li>
+         <li>Task Tracking</li>
+         <li>Invoicing</li>
+         <li>Manage Budgets</li>
+        </ul>
+      </div>
+      <p class="standard-copy">Your business can be managed very effectively by using Mavenlink. By using Mavenlink, you can really maximize your profits as well as your efficiency. Get the visibility you need to make swift, informed decisions. Mavenlink Insights brings enterprise-grade business intelligence to every project delivery team.</p>
     </div>
     <div class="fees fees-screenshot">
       <%= image_tag 'industries/fees.png' %>
@@ -27,7 +30,7 @@
 
   <%= render partial: 'industries/dog_carousel' %>
 
-  <div class="benefits grey-background">
+  <div class="benefits">
     <div class="benefits-copy">
       <p class="standard-copy centered">Mavenlink’s advanced project management software empowers you to plan your poodle-primping and track your terrier-trimming -- all in one place. Our canine project management software provides unparalleled insight into the status of your grooming projects. Learn more about <%= link_to 'Mavenlink Insights', 'https://www.mavenlink.com/tour/real-time-project-analytics' %></p>
     </div>

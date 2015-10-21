@@ -1,4 +1,5 @@
 @import "industries/industries";
+@import 'base';
 
 body {
   margin: 0;
@@ -11,7 +12,7 @@ body {
 }
 
 .main-title {
-  color: $darkBlue;
+  color: $warmGrey9;
 }
 
 .title-header {
@@ -70,6 +71,14 @@ a:hover {
   &.transparent-back-white-text {
     color: $white;
     border: 1px solid $lightBlue;
+  }
+
+  &.red-back-white-text {
+    color: $white;
+    padding: 20px;
+    background-color: $vBrightRed;
+    border: none;
+    font-size: 18px;
   }
 }
 
