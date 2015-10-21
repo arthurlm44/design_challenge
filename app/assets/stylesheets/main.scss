@@ -11,6 +11,10 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+.desktop-hidden {
+  display: none;
+}
+
 .main-title {
   color: $warmGrey9;
 }

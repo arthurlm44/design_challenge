@@ -1,0 +1,66 @@
+@import 'shared/variables';
+
+@media (max-width: 925px) {
+
+ .overlayed-subhead {
+
+   .desktop-hidden {
+     display: block;
+   }
+ }
+}
+
+@media (max-width: 925px) {
+
+  .dog-groomer-hero {
+
+    .overlayed-text {
+      top: 125px;
+      left: 100px;
+    }
+  }
+}
+
+@media (max-width: 670px) {
+
+  .overlayed-subhead {
+    display: none;
+  }
+
+  .dog-groomer-hero {
+
+    .overlayed-text {
+      top: 80px;
+      font-size: 0.8rem;
+    }
+
+    .overlayed-button {
+      top: 140px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .dog-groomer-hero {
+
+    .overlayed-text {
+      left: 20px;
+      font-size: 0.8rem;
+    }
+
+    .overlayed-button {
+      top: 100px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+
+  .dog-groomer-hero {
+
+    .overlayed-text {
+      left: 5px;
+      font-size: 0.8rem;
+    }
+  }
+}
