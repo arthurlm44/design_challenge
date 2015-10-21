@@ -1,9 +1,11 @@
 @import "shared/variables";
 
 .header {
+  position: fixed;
+  width: 100%;
   background-color: $darkBlue;
-  height: 60px;
-  padding: 0 30px 20px 30px;
+  padding: 0 25px;
+  z-index: 3;
 
   .logo {
     width: 76px;
@@ -26,5 +28,9 @@
     text-decoration: none;
     font-family: "jaf-bernino-sans", "jaf-bernino-sans", sans-serif;
     padding-top: 10px;
+  }
+
+  .most-right-link {
+    margin-right: 65px;
   }
 }
