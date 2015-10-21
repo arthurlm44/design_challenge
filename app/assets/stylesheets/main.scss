@@ -16,7 +16,7 @@ body {
 }
 
 .title-header {
-  color: $darkBlue;
+  color: $insightsTeal;
 }
 
 .sub-head {
@@ -83,8 +83,7 @@ a:hover {
 
 .cta-bottom {
   background-color: $warmGrey1;
-  padding-top: 25px;
-  padding-bottom: 50px;
+  padding: 20px 200px 15px 200px;
 }
 
 .cta-text {
@@ -92,5 +91,6 @@ a:hover {
 }
 
 .bottom-cta-button {
-  margin-top: 1000px;
+  float: right;
+  margin-top: 25px;
 }
