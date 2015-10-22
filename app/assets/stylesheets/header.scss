@@ -13,9 +13,6 @@
     float: left;
   }
 
-  .top-nav {
-  }
-
   .nav-link {
     float: right;
     margin: 20px;
@@ -31,4 +28,8 @@
   .most-right-link {
     margin-right: 65px;
   }
+}
+
+.nav-tablet-show {
+  display: none;
 }
