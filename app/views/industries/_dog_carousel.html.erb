@@ -8,17 +8,14 @@
     <%= image_tag 'industries/dog2.jpg', class: 'carousel-item' %>
     <%= image_tag 'industries/dog1.jpg', class: 'carousel-item' %>
   </div>
-
 </div>
 
 <script>
   $(document).ready(function() {
     $(function () {
-      $('.dog-carousel img:gt(0)').hide();
+      $('.dog-carousel .carousel-item:gt(0)').hide();
       setInterval(function () {
-          $('.dog-carousel :first-child').fadeOut()
-            .next('.carousel-item').fadeIn()
-            .end().appendTo('.dog-carousel');
+          $('.dog-carousel').child().first().fadeOut().next('.carousel-item').fadeIn().end().appendTo('.dog-carousel');
         },
         3000);
     });
